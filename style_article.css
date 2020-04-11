@@ -1,0 +1,120 @@
+.article_info{
+    border-style: solid;
+    border-color: #00aeff;
+    width: auto;
+    
+}
+
+.vc_message_box-icon {
+    color: #fff;
+    display: block;
+    
+    height: 100%;
+}
+
+
+.vc_message_box {
+    border: 1px solid transparent;
+    display: block;
+    overflow: hidden;
+    margin: 0 0 21.73913043px 0;
+    padding: 1em 1em 1em 4em;
+    position: relative;
+    font-size: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vc_message_box-outline, .vc_message_box-solid-icon {
+    border-width: 2px;
+}
+
+.vc_color-danger.vc_message_box {
+    color: #00aeff;
+    border-color: #00aeff;
+    background-color: #00aeff;
+}
+
+.vc_color-danger.vc_message_box-outline, .vc_color-danger.vc_message_box-solid-icon {
+    color: #00aeff;
+    border-color: #00aeff;
+    background-color: transparent;
+}
+
+.image_article{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:1px solid rgba(199, 196, 196, 0.808);
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.image_article:hover{
+    box-shadow: 10px 10px 5px #00aeffd9;
+    -moz-box-shadow: 10px 10px 5px #00aeffd9;
+    -webkit-box-shadow: 10px 10px 5px #00aeffd9;
+    -khtml-box-shadow: 10px 10px 5px #00aeffd9;
+}
+
+.article_suivant{
+    border:2px solid #6c757d; 
+}
+.steps {
+    clear: both;
+    list-style: none;
+    padding-left: 4%;
+  }
+  .steps li {
+    margin: 2em 0;
+    padding-top: 1em;
+    display: block;
+    position: relative;
+    counter-increment: inst;
+  }
+  .steps li::before {
+    content: counter(inst);
+    
+    background:#00aeffd9;
+    color: #fff;
+    
+    font-size: 1em;
+    font-weight: 700;
+    font-style: italic;    
+    border-radius: 0 0.675em 0.675em 0;
+    font-size: 1.5em;
+    text-align: center;
+    
+    padding-top: 0;
+    padding-left: 2.25%;
+    left: -5%;
+    top: -0.65em;
+    height: 1.35em;
+    width: 1.35em;
+    position: absolute;
+    
+    transition: all 0.2s ease-in-out;
+    
+    z-index: -1;
+  }
+  @media (min-width: 33em) {
+    .steps li:before {
+      border-radius: 50%;
+      font-size: 1.5em;
+      height: 1.35em;
+      margin-left: 2.5%;
+      padding-left: 0;
+      padding-top: 0;
+      top: -0.15em;
+      width: 1.35em;
+      z-index: -1;
+    }
+  }
+  
+  body {
+    font-size: 25px;
+  }

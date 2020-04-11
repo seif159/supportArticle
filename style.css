@@ -1,0 +1,91 @@
+.main_container{
+width: 100%;
+}
+
+
+.flex_container{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    height: 100px;
+
+}
+.menu{
+    min-width: 200px;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 25px;
+
+}
+.image_banner{
+    width: 100%;
+    opacity: 0.8;
+}
+.banner_title{
+position: absolute;
+top: 50% ;
+left: 35%;
+font-size: 5em;
+color: white;
+background-color: cornflowerblue;
+font-style: italic;
+
+}
+.banner_subtitle{
+position: absolute;
+top: 60%;
+left: 40%;
+font-size: 3em;
+color: white;
+background-color: cornflowerblue;
+font-style: italic;
+border: solid #ffffff 2px;
+
+}
+.skill_container{
+    display : flex;
+    width :100%;
+    justify-content: center;
+    height: 500px;
+    margin-top: 50px ;
+    flex-direction: row;
+    margin-left: auto;
+}
+.skill1{
+   display: flex; 
+   width: 100%;
+   margin-top: 40px;
+   justify-content: center;
+
+}
+#image_html5{
+    width: 100px;
+    height: auto;
+    margin-right: 50px;
+}
+#skill_text{
+    color: black;
+    margin-top: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.div_support_page{
+    color:#007bff ;
+    border-style: solid;
+    border-color: #007bff;
+    border-width: 1px;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.div_support_page:hover {
+    background-color: #007bff;
+    color: white;
+    
+
+}
